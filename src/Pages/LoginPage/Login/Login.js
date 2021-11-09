@@ -55,7 +55,7 @@ const Login = () => {
                             <Button variant="text">Are You New,Please Register</Button>
                         </NavLink>
                         {isLoading && <CircularProgress color="secondary" />}
-                        {user.email && <Alert severity="success">User Added Successfully</Alert>}
+                        {user.email && <Alert severity="success">User Login Successfully</Alert>}
                         {authError && <Alert severity="error">{authError}</Alert>}
                     </form>
                     <p>--------------------------------------------</p>
